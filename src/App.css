@@ -271,6 +271,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
+  min-height: 200px;
   font-size: 65px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -286,6 +287,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   width: 96%;
 }
 .banner button {
+  background-color: transparent;
   color: #fff;
   font-weight: 700;
   font-size: 20px;
@@ -293,6 +295,10 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+}
+.banner a {
+  color: #fff;
+  text-decoration: none;
 }
 .banner button svg {
   font-size: 25px;

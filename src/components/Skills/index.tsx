@@ -1,6 +1,8 @@
 import meter1 from '~/assets/img/meter1.svg';
 import meter2 from '~/assets/img/meter2.svg';
 import meter3 from '~/assets/img/meter3.svg';
+import meter4 from '~/assets/img/meter4.svg';
+import meter5 from '~/assets/img/meter5.svg';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from '~/assets/img/arrow1.svg';
@@ -51,15 +53,19 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <h5>ReactJS</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <h5>AWS CICD</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={meter4} alt="Image" />
+                  <h5>NodeJS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter5} alt="Image" />
+                  <h5>Redux</h5>
                 </div>
               </Carousel>
             </div>

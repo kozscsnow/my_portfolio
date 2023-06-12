@@ -60,7 +60,7 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? 'animate__animated animate__fadeInUp animate__slower' : ''
+                    isVisible ? 'animate__animated animate__fadeInUp ' : ''
                   }
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
@@ -74,14 +74,22 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Experience developer with a strong ReactJS knowledge base,
+                    having 3+ years working in software development base on
+                    Javascript and React flatforms. Before that, I had 2+ years
+                    working with Monitor Network System. Good at communicating
+                    and working with team members. Love to learn and always
+                    wanna get something new. If I have the opportunity I will do
+                    it with all my passion to create premium quality products.
                   </p>
                   <button onClick={() => console.log('connect')}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    <a
+                      href="./assets/CSFile/ReactJS_CV_Nguyen_Nhat_Khanh.docx"
+                      download="CV_Nguyen_Nhat_Khanh"
+                      rel="noopener noreferrer"
+                    >
+                      Download CV <ArrowRightCircle size={25} />
+                    </a>
                   </button>
                 </div>
               )}
@@ -92,7 +100,9 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? 'animate__animated animate__zoomIn animate__slow' : ''
+                    isVisible
+                      ? 'animate__animated animate__zoomIn animate__slow'
+                      : ''
                   }
                 >
                   <img src={headerImg} alt="Header Img" />
