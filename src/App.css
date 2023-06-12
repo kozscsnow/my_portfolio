@@ -366,7 +366,6 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
-
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -646,4 +645,19 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+/************ Responsive Css ************/
+
+@media only screen and (max-width: 576px) {
+  .banner {
+    padding: 200px 0;
+  }
+  .banner h1 {
+    font-size: 40px;
+    min-height: 130px;
+  }
+  .navbar-text button {
+    padding: 10px;
+  }
 }
