@@ -65,7 +65,8 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Halo <3 I'm Khánh`}{' '}
+                    {`My ơi <3 nớp Myyyy`}{' '}
+                    {/* {`Halo <3 I'm Khánh`}{' '} */}
                     <span
                       className="txt-rotate"
                       data-rotate='[ "Web Developer", "Frontend"]'
