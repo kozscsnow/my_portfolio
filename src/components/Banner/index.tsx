@@ -11,7 +11,8 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ['Web Developer', 'Frontend'];
+  // const toRotate = ['Web Developer', 'Frontend'];
+  const toRotate = ['i nớp diu', 'diu nớp me'];
   const period = 2000;
 
   useEffect(() => {
@@ -65,11 +66,11 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`My ơi <3 nớp Myyyy`}{' '}
-                    {/* {`Halo <3 I'm Khánh`}{' '} */}
+                    {`My ơi <3 nớp Myyyy`} {/* {`Halo <3 I'm Khánh`}{' '} */}
                     <span
                       className="txt-rotate"
-                      data-rotate='[ "Web Developer", "Frontend"]'
+                      data-rotate='[ "i nớp diu", "diu nớp me"]'
+                      // data-rotate='[ "Web Developer", "Frontend"]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
