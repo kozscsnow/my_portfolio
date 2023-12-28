@@ -661,4 +661,21 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   .navbar-text button {
     padding: 10px;
   }
+
+  .newsletter-bx {
+    padding: 40px;
+  }
+
+  .newsletter-bx .new-email-bx {
+    justify-content: space-between;
+  }
+
+  .newsletter-bx .item-button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    width: 20px;
+    height: 20px;
+  }
 }
