@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { useEffect, useState } from 'react';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import githubIcon from '~/assets/img/github.svg';
 import logoHeader from '~/assets/img/logo-header.svg';
 import navIcon1 from '~/assets/img/nav-icon1.svg';
 import navIcon2 from '~/assets/img/nav-icon2.svg';
 import navIcon3 from '~/assets/img/nav-icon3.svg';
-import navIcon4 from '~/assets/img/github.png';
-import { HashLink } from 'react-router-hash-link';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -74,6 +74,9 @@ const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
+                <a href="https://github.com/kozscsnow" target="_blank">
+                  <img src={githubIcon} alt="" />
+                </a>
                 <a href="https://www.linkedin.com/in/khanhnn/" target="_blank">
                   <img src={navIcon1} alt="" />
                 </a>
